@@ -1,3 +1,23 @@
 {
-    "name": "2bright/demo"
+    "name": "2bright/demo",
+    "type": "library",
+    "description": "a demo library as composer package",
+    "keywords": ["composer package"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wenjie.liang",
+            "email": "liangwj@1001hao.com",
+            "homepage": "https://github.com/2bright"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "ext-curl": "*",
+        "phpunit/phpunit": "^4.0",
+        "psr/log": "^1.0"
+    }
 }
